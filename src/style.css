@@ -1,3 +1,48 @@
+/*Normalizar Css*/
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+/*Armando estructura de cajas*/
 body {
-    font-family: 'Qahiri', sans-serif;
+    
+    border: 1px solid red;
+    margin: 5px;
+    padding: 10px;
+
+}
+/*Aquí empieza nuestros estilos de header*/
+header{
+    
+    border: 1px solid blue;
+    margin-bottom: 10px;
+    padding: 5px;
+
+}
+/*selector de etiqueta:*/
+nav{
+    border: 2px solid green;
+    padding: 10px;
+}
+/*Selector de clase, siempre lleva un . (punto) antes del 
+nombre de la clase*/
+.nav_Header{
+    border: 2px dashed yellow;
+    padding: 25px;
+}
+.list-item_Header{
+    border: 2px solid violet;
+    padding: 10px;
+}
+.link_Header{
+    border: 1px solid purple;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+/*Estilos del contenido (Main) dselector de id lleva siempre un# (Almohadilla antes del nombre del id)*/
+#mainContent{
+    border: 2px solid black;
 }
