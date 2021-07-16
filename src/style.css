@@ -48,35 +48,36 @@ nombre de la clase*/
 }
 
 h2{
-    padding: 14px;
-    border: 1px solid blue;
-    margin-right: 455px;
+    padding: 12px;
+    border: 6px solid violet;
+    margin-right: 2px;
 
 }
 
 .div-article_Main{
     padding: 14px;
     border: 1px solid blue;
-    margin-right: 709px;
+    margin-right: 2px;
 
 }
 
 .article_Main{
     padding: 14px;
-    border: 1px solid blue;
-    margin-right: 455px;
+    border: 2px solid blue;
+    margin-right: 2px;
 }
 
 .subtittle_Main{
     padding: 14px;
-    border: 1px solid blue;
-    margin-right: 455px;  
+    border: 2px solid blue;
+    margin-right: 2px;  
 }
 
 .subtitle_Aside{
     padding: 14px;
-    border: 1px solid violet;
-    margin-right: 455px;  
+    border: 2px solid violet;
+    margin-right: 2px;  
+
     
 }
 .list-item_aside{
@@ -84,6 +85,9 @@ h2{
     padding: 10px;
 }
 .link_aside{
-    border: 2px solid violet;
-    padding: 10px;
+    border: 1px solid violet;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
 }
