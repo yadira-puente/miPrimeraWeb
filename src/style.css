@@ -98,7 +98,12 @@ h2{
     margin-left: 5px;
 }
 
-footer{
+/*footer{
     border: 3px solid purple;
     padding: 6px;
+}*/
+
+#footerContent{
+    border: 2px solid yellow;
+    padding: 7px;
 }
