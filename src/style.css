@@ -1,4 +1,4 @@
-/*Normalizar Css*/
+/*Normalizar Css, el asterisco es el selector universal*/
 *{
 	margin: 0;
 	padding: 0;
@@ -6,16 +6,16 @@
 }
 /*Armando estructura de cajas*/
 body {
-    
-    border: 1px solid red;
-    margin: 5px;
-    padding: 10px;
-
+    /*familia de fuentes: 'Open Sans', sans-serif;*/
+    border:3px solid red;
+    margin:5px;
+    padding:10px;
 }
-/*Aquí empieza nuestros estilos de header*/
+
+/*Aquí empieza nuestros estilos del header*/
 header{
     
-    border: 1px solid blue;
+    border: 3px solid blue;
     margin-bottom: 10px;
     padding: 5px;
 
@@ -45,4 +45,45 @@ nombre de la clase*/
 /*Estilos del contenido (Main) dselector de id lleva siempre un# (Almohadilla antes del nombre del id)*/
 #mainContent{
     border: 2px solid black;
+}
+
+h2{
+    padding: 14px;
+    border: 1px solid blue;
+    margin-right: 455px;
+
+}
+
+.div-article_Main{
+    padding: 14px;
+    border: 1px solid blue;
+    margin-right: 709px;
+
+}
+
+.article_Main{
+    padding: 14px;
+    border: 1px solid blue;
+    margin-right: 455px;
+}
+
+.subtittle_Main{
+    padding: 14px;
+    border: 1px solid blue;
+    margin-right: 455px;  
+}
+
+.subtitle_Aside{
+    padding: 14px;
+    border: 1px solid violet;
+    margin-right: 455px;  
+    
+}
+.list-item_aside{
+    border: 2px solid violet;
+    padding: 10px;
+}
+.link_aside{
+    border: 2px solid violet;
+    padding: 10px;
 }
