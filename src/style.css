@@ -51,9 +51,11 @@ nombre de la clase*/
 /*subitulo del articulo del main*/
 h2{
     padding: 12px;
-    border: 4px solid rgb(86, 128, 39);
-    margin-right: 2px;
-    margin-left: 5px;
+    border: 3px solid rgb(86, 128, 39);
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .div-article_Main{
     padding: 14px;
@@ -65,33 +67,43 @@ h2{
 .article_Main{
     padding: 14px;
     border: 2px solid rgb(80, 230, 10);
-    margin-right: 2px;
-    margin-left: 5px;
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .subtittle_Main{
     padding: 14px;
     border: 2px solid rgb(36, 148, 13);
-    margin-right: 2px;  
-    margin-left: 5px;
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .subtitle_Aside{
     padding: 8px;
     border: 4px dotted violet;
-    margin-right: 2px;
-    margin-left: 5px;
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 
     
 }
 .list-item_aside{
     border: 1px dotted violet;
     padding: 6px;
-    margin-left: 5px;
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
 }
 .link_aside{
     border: 1px solid violet;
-    padding: 5px;
+    padding: 1px;
     text-decoration: none;
     color: black;
     font-weight: 600;
@@ -99,11 +111,19 @@ h2{
 }
 
 /*footer{
-    border: 3px solid purple;
-    padding: 6px;
+    border: 2px solid yellow;
+    padding: 7px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }*/
-
 #footerContent{
     border: 2px solid yellow;
     padding: 7px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.paragraph_Footer{
+    border: 2px solid red;
+    padding: 10px;
+    
 }
